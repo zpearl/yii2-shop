@@ -1,17 +1,21 @@
 {
-    "name": "pistol88/yii2-shop",
-    "description": "yii2-shop it's a module for site shop backend",
-    "keywords": ["yii2", "yii 2", "application", "backend", "crud", "shop", "module", "pistol88"],
-    "homepage": "https://github.com/pistol88/yii2-shop",
+    "name": "zpearl/yii2-shop",
+    "description": "yii2-shop it's a module for site shop backend, fork pistol88/yii2-shop",
+    "keywords": ["yii2", "yii 2", "application", "backend", "crud", "shop", "module"],
+    "homepage": "https://github.com/zpearl/yii2-shop",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "source": "https://github.com/pistol88/yii2-shop"
+        "source": "https://github.com/zpearl/yii2-shop"
     },
     "authors": [
         {
             "name": "Ilya Pistol",
             "email": "pistol88@gmail.com"
+        },
+        {
+            "name": "Eugen Pestov",
+            "email": "zpearl80@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -46,10 +50,10 @@
     },
     "autoload": {
         "psr-4": {
-            "pistol88\\shop\\": ""
+            "zpearl\\shop\\": ""
         }
     },
     "extra": {
-        "bootstrap": "pistol88\\shop\\Bootstrap"
+        "bootstrap": "zpearl\\shop\\Bootstrap"
     }
 }
