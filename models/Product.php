@@ -1,9 +1,9 @@
 <?php
-namespace pistol88\shop\models;
+namespace zpearl\shop\models;
 
 use Yii;
 use yii\helpers\Url;
-use pistol88\shop\models\product\ProductQuery;
+use zpearl\shop\models\product\ProductQuery;
 use yii\db\ActiveQuery;
 
 class Product extends \yii\db\ActiveRecord implements \pistol88\relations\interfaces\Torelate, \pistol88\cart\interfaces\CartElement
@@ -20,7 +20,7 @@ class Product extends \yii\db\ActiveRecord implements \pistol88\relations\interf
             ],
             'relations' => [
                 'class' => 'pistol88\relations\behaviors\AttachRelations',
-                'relatedModel' => 'pistol88\shop\models\Product',
+                'relatedModel' => 'zpearl\shop\models\Product',
                 'inAttribute' => 'related_ids',
             ],
             'toCategory' => [

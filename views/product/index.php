@@ -2,16 +2,16 @@
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Url;
-use pistol88\shop\models\ProductOption;
-use pistol88\shop\models\Category;
-use pistol88\shop\models\Producer;
-use pistol88\shop\models\Price;
+use zpearl\shop\models\ProductOption;
+use zpearl\shop\models\Category;
+use zpearl\shop\models\Producer;
+use zpearl\shop\models\Price;
 use kartik\export\ExportMenu;
 
 $this->title = 'Товары';
 $this->params['breadcrumbs'][] = $this->title;
 
-\pistol88\shop\assets\BackendAsset::register($this);
+\zpearl\shop\assets\BackendAsset::register($this);
 ?>
 <div class="product-index">
     <div class="shop-menu">

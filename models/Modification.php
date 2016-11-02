@@ -1,11 +1,11 @@
 <?php
-namespace pistol88\shop\models;
+namespace zpearl\shop\models;
 
 use Yii;
 use yii\helpers\Url;
-use pistol88\shop\models\Category;
-use pistol88\shop\models\Price;
-use pistol88\shop\models\product\ProductQuery;
+use zpearl\shop\models\Category;
+use zpearl\shop\models\Price;
+use zpearl\shop\models\product\ProductQuery;
 use yii\db\ActiveQuery;
 use yii\db\Expression;
 use yii\behaviors\TimestampBehavior;
@@ -24,7 +24,7 @@ class Modification extends \yii\db\ActiveRecord implements \pistol88\cart\interf
             ],
             'relations' => [
                 'class' => 'pistol88\relations\behaviors\AttachRelations',
-                'relatedModel' => 'pistol88\shop\models\Product',
+                'relatedModel' => 'zpearl\shop\models\Product',
                 'inAttribute' => 'related_ids',
             ],
             'seo' => [

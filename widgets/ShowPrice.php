@@ -1,5 +1,5 @@
 <?php
-namespace pistol88\shop\widgets;
+namespace zpearl\shop\widgets;
 
 use yii\helpers\Html;
 use yii\helpers\Url;
@@ -13,7 +13,7 @@ class ShowPrice extends \yii\base\Widget
 
     public function init()
     {
-        \pistol88\shop\assets\WidgetAsset::register($this->getView());
+        \zpearl\shop\assets\WidgetAsset::register($this->getView());
 
         return parent::init();
     }

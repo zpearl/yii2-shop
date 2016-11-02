@@ -4,7 +4,7 @@ use yii\helpers\Html;
 $this->title = 'Создать производителя';
 $this->params['breadcrumbs'][] = ['label' => 'Производители', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
-\pistol88\shop\assets\BackendAsset::register($this);
+\zpearl\shop\assets\BackendAsset::register($this);
 ?>
 <div class="producer-create">
     <div class="shop-menu">

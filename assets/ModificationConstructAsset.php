@@ -1,5 +1,5 @@
 <?php
-namespace pistol88\shop\assets;
+namespace zpearl\shop\assets;
 
 use yii\web\AssetBundle;
 

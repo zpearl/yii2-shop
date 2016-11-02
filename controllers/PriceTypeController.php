@@ -1,13 +1,13 @@
 <?php
-namespace pistol88\shop\controllers;
+namespace zpearl\shop\controllers;
 
 use Yii;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
-use pistol88\shop\models\PriceType;
-use pistol88\shop\models\price\PriceTypeSearch;
+use zpearl\shop\models\PriceType;
+use zpearl\shop\models\price\PriceTypeSearch;
 
 class PriceTypeController extends Controller
 {

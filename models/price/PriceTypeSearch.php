@@ -1,10 +1,10 @@
 <?php
-namespace pistol88\shop\models\price;
+namespace zpearl\shop\models\price;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use pistol88\shop\models\PriceType;
+use zpearl\shop\models\PriceType;
 
 class PriceTypeSearch extends PriceType
 {

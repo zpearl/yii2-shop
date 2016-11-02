@@ -1,6 +1,6 @@
 <?php
 use yii\helpers\Html;
-use pistol88\shop\assets\BackendAsset;
+use zpearl\shop\assets\BackendAsset;
 BackendAsset::register($this);
 ?>
 

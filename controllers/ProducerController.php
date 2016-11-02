@@ -1,9 +1,9 @@
 <?php
 
-namespace pistol88\shop\controllers;
+namespace zpearl\shop\controllers;
 
 use Yii;
-use pistol88\shop\models\producer\ProducerSearch;
+use zpearl\shop\models\producer\ProducerSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

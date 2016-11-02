@@ -1,5 +1,5 @@
 <?php
-namespace pistol88\shop\models;
+namespace zpearl\shop\models;
 
 use yii;
 

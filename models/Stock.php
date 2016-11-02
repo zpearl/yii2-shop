@@ -1,10 +1,10 @@
 <?php
-namespace pistol88\shop\models;
+namespace zpearl\shop\models;
 
 use Yii;
 use yii\helpers\Url;
 use yii\helpers\ArrayHelper;
-use pistol88\shop\models\StockToProduct;
+use zpearl\shop\models\StockToProduct;
 use yii\db\ActiveQuery;
 
 class Stock extends \yii\db\ActiveRecord

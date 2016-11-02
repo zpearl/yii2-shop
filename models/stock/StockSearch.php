@@ -1,10 +1,10 @@
 <?php
-namespace pistol88\shop\models\stock;
+namespace zpearl\shop\models\stock;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use pistol88\shop\models\Stock;
+use zpearl\shop\models\Stock;
 
 
 class StockSearch extends Stock

@@ -1,9 +1,9 @@
 <?php
 
-namespace pistol88\shop\controllers;
+namespace zpearl\shop\controllers;
 
 use Yii;
-use pistol88\shop\models\category\CategorySearch;
+use zpearl\shop\models\category\CategorySearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

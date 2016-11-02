@@ -6,8 +6,8 @@ use yii\helpers\Url;
 $this->title = 'Новое отправление';
 $this->params['breadcrumbs'][] = $this->title;
 
-pistol88\shop\assets\CreateOutcomingAsset::register($this);
-\pistol88\shop\assets\BackendAsset::register($this);
+zpearl\shop\assets\CreateOutcomingAsset::register($this);
+\zpearl\shop\assets\BackendAsset::register($this);
 ?>
 
 <div class="incoming-create">

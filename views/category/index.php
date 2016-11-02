@@ -2,13 +2,13 @@
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Url;
-use pistol88\shop\models\Category;
+use zpearl\shop\models\Category;
 use kartik\export\ExportMenu;
 
 $this->title = 'Категории';
 $this->params['breadcrumbs'][] = $this->title;
 
-\pistol88\shop\assets\BackendAsset::register($this);
+\zpearl\shop\assets\BackendAsset::register($this);
 ?>
 <div class="category-index">
     <div class="shop-menu">
@@ -75,7 +75,7 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
         ]);
     } else {
-        $categories = \pistol88\tree\widgets\Tree::widget(['model' => new \pistol88\shop\models\Category()]);
+        $categories = \pistol88\tree\widgets\Tree::widget(['model' => new \zpearl\shop\models\Category()]);
     }
     
     echo $categories;

@@ -1,10 +1,10 @@
 <?php
-namespace pistol88\shop\models\modification;
+namespace zpearl\shop\models\modification;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use pistol88\shop\models\Modification;
+use zpearl\shop\models\Modification;
 
 class ModificationSearch extends Modification
 {

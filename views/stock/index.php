@@ -6,7 +6,7 @@ use kartik\export\ExportMenu;
 $this->title = 'Склады';
 $this->params['breadcrumbs'][] = $this->title;
 
-\pistol88\shop\assets\BackendAsset::register($this);
+\zpearl\shop\assets\BackendAsset::register($this);
 ?>
 <div class="producer-index">
     

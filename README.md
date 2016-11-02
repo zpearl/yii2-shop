@@ -63,25 +63,25 @@ Yii::setAlias('@storageUrl','/frontend/web/images');
     'modules' => [
         //..
         'shop' => [
-            'class' => 'pistol88\shop\Module',
+            'class' => 'zpearl\shop\Module',
             'adminRoles' => ['administrator'],
         ],
         'filter' => [
             'class' => 'pistol88\filter\Module',
             'adminRoles' => ['administrator'],
-            'relationModel' => 'pistol88\shop\models\Product',
+            'relationModel' => 'zpearl\shop\models\Product',
             'relationFieldName' => 'category_id',
             'relationFieldValues' =>
                 function() {
-                    return \pistol88\shop\models\buldTextTree();
+                    return \zpearl\shop\models\buldTextTree();
                 },
         ],
         'field' => [
             'class' => 'pistol88\field\Module',
             'relationModels' => [
-                'pistol88\shop\models\Product' => 'Продукты',
-                'pistol88\shop\models\Category' => 'Категории',
-                'pistol88\shop\models\Producer' => 'Производители',
+                'zpearl\shop\models\Product' => 'Продукты',
+                'zpearl\shop\models\Category' => 'Категории',
+                'zpearl\shop\models\Producer' => 'Производители',
             ],
             'adminRoles' => ['administrator'],
         ],
@@ -131,14 +131,14 @@ Yii::setAlias('@storageUrl','/frontend/web/images');
 Виджеты
 ---------------------------------
 
-* pistol88\shop\widgets\ShowPrice - передается 'model', выводит цену. Связан с pistol88\cart\widgets\ChangeOptions через jQuery триггер и может определять, какая модификация выбрана и динамически менять цену.
+* zpearl\shop\widgets\ShowPrice - передается 'model', выводит цену. Связан с pistol88\cart\widgets\ChangeOptions через jQuery триггер и может определять, какая модификация выбрана и динамически менять цену.
 
 Пример карточки товара со всеми виджетами магазина и корзины, которые работают сообща и динамически меняют данные друг-друга.
 
 
 ```
 <?php
-use pistol88\shop\widgets\ShowPrice;
+use zpearl\shop\widgets\ShowPrice;
 use pistol88\cart\widgets\BuyButton;
 use pistol88\cart\widgets\TruncateButton;
 use pistol88\cart\widgets\CartInformer;
@@ -146,7 +146,7 @@ use pistol88\cart\widgets\ElementsList;
 use pistol88\cart\widgets\ChangeCount;
 use pistol88\cart\widgets\ChangeOptions;
 
-$product = \pistol88\shop\models\Product::findOne(1); //from controller
+$product = \zpearl\shop\models\Product::findOne(1); //from controller
 ?>
 <div class="site-index">
     <h1><?=$product->name;?></h1>

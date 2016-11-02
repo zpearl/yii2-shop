@@ -1,7 +1,7 @@
 <?php
-namespace pistol88\shop\models\product;
+namespace zpearl\shop\models\product;
 
-use pistol88\shop\models\Category;
+use zpearl\shop\models\Category;
 use yii\db\ActiveQuery;
 
 class ProductQuery extends ActiveQuery

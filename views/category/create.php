@@ -4,7 +4,7 @@ use yii\helpers\Html;
 $this->title = 'Создать категорию';
 $this->params['breadcrumbs'][] = ['label' => 'Категории', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
-\pistol88\shop\assets\BackendAsset::register($this);
+\zpearl\shop\assets\BackendAsset::register($this);
 ?>
 <div class="category-create">
     <div class="shop-menu">

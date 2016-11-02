@@ -1,10 +1,10 @@
 <?php
 
-namespace pistol88\shop\controllers;
+namespace zpearl\shop\controllers;
 
 use Yii;
-use pistol88\shop\models\Stock;
-use pistol88\shop\models\stock\StockSearch;
+use zpearl\shop\models\Stock;
+use zpearl\shop\models\stock\StockSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

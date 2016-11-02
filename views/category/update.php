@@ -4,7 +4,7 @@ use yii\helpers\Html;
 $this->title = 'Обновить категорию: ' . ' ' . $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Категории', 'url' => ['index']];
 $this->params['breadcrumbs'][] = 'Обновить';
-\pistol88\shop\assets\BackendAsset::register($this);
+\zpearl\shop\assets\BackendAsset::register($this);
 ?>
 <div class="category-update">
     <div class="shop-menu">

@@ -3,13 +3,13 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\helpers\ArrayHelper;
 use yii\widgets\ActiveForm;
-use pistol88\shop\models\Category;
-use pistol88\shop\models\Producer;
+use zpearl\shop\models\Category;
+use zpearl\shop\models\Producer;
 use pistol88\gallery\widgets\Gallery;
 use kartik\select2\Select2;
 use pistol88\seo\widgets\SeoForm;
 
-\pistol88\shop\assets\BackendAsset::register($this);
+\zpearl\shop\assets\BackendAsset::register($this);
 ?>
 
 <div class="product-form">

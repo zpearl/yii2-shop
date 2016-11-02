@@ -3,7 +3,7 @@ use yii\helpers\Url;
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
 use yii\widgets\ActiveForm;
-use pistol88\shop\models\Category;
+use zpearl\shop\models\Category;
 use pistol88\gallery\widgets\Gallery;
 use kartik\select2\Select2;
 use pistol88\seo\widgets\SeoForm;

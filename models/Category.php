@@ -1,8 +1,8 @@
 <?php
-namespace pistol88\shop\models;
+namespace zpearl\shop\models;
 
 use Yii;
-use pistol88\shop\models\category\CategoryQuery;
+use zpearl\shop\models\category\CategoryQuery;
 use yii\helpers\Url;
 
 class Category extends \yii\db\ActiveRecord

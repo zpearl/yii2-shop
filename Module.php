@@ -1,5 +1,5 @@
 <?php
-namespace pistol88\shop;
+namespace zpearl\shop;
 
 use yii;
 
@@ -45,14 +45,14 @@ class Module extends \yii\base\Module
     {
         if(empty($this->modelMap)) {
             $this->modelMap = [
-                'product' => '\pistol88\shop\models\Product',
-                'category' => '\pistol88\shop\models\Category',
-                'incoming' => '\pistol88\shop\models\Incoming',
-                'outcoming' => '\pistol88\shop\models\Outcoming',
-                'producer' => '\pistol88\shop\models\Producer',
-                'price' => '\pistol88\shop\models\Price',
-                'stock' => '\pistol88\shop\models\Stock',
-                'modification' => '\pistol88\shop\models\Modification',
+                'product' => '\zpearl\shop\models\Product',
+                'category' => '\zpearl\shop\models\Category',
+                'incoming' => '\zpearl\shop\models\Incoming',
+                'outcoming' => '\zpearl\shop\models\Outcoming',
+                'producer' => '\zpearl\shop\models\Producer',
+                'price' => '\zpearl\shop\models\Price',
+                'stock' => '\zpearl\shop\models\Stock',
+                'modification' => '\zpearl\shop\models\Modification',
             ];
         }
         

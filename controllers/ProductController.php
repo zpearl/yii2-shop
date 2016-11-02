@@ -1,13 +1,13 @@
 <?php
-namespace pistol88\shop\controllers;
+namespace zpearl\shop\controllers;
 
 use Yii;
-use pistol88\shop\models\product\ProductSearch;
-use pistol88\shop\models\stock\StockSearch;
-use pistol88\shop\models\price\PriceSearch;
-use pistol88\shop\models\PriceType;
-use pistol88\shop\events\ProductEvent;
-use pistol88\shop\models\modification\ModificationSearch;
+use zpearl\shop\models\product\ProductSearch;
+use zpearl\shop\models\stock\StockSearch;
+use zpearl\shop\models\price\PriceSearch;
+use zpearl\shop\models\PriceType;
+use zpearl\shop\events\ProductEvent;
+use zpearl\shop\models\modification\ModificationSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

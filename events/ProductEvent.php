@@ -1,5 +1,5 @@
 <?php
-namespace pistol88\shop\events;
+namespace zpearl\shop\events;
 
 use yii\base\Event;
 

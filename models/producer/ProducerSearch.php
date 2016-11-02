@@ -1,10 +1,10 @@
 <?php
-namespace pistol88\shop\models\producer;
+namespace zpearl\shop\models\producer;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use pistol88\shop\models\Producer;
+use zpearl\shop\models\Producer;
 
 class ProducerSearch extends Producer
 {

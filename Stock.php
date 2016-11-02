@@ -1,8 +1,8 @@
 <?php
-namespace pistol88\shop;
+namespace zpearl\shop;
 
-use pistol88\shop\models\Stock as StockModel;
-use pistol88\shop\models\Outcoming;
+use zpearl\shop\models\Stock as StockModel;
+use zpearl\shop\models\Outcoming;
 use yii\base\Component;
 use yii\db\Query;
 use yii;

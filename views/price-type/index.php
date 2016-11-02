@@ -6,7 +6,7 @@ use kartik\export\ExportMenu;
 $this->title = 'Типы цен';
 $this->params['breadcrumbs'][] = $this->title;
 
-\pistol88\shop\assets\BackendAsset::register($this);
+\zpearl\shop\assets\BackendAsset::register($this);
 ?>
 <div class="price-type-index">
     <div class="shop-menu">

@@ -1,6 +1,6 @@
 <?php
 
-namespace pistol88\shop\controllers;
+namespace zpearl\shop\controllers;
 
 use Yii;
 use yii\web\Controller;

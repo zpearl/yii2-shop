@@ -1,10 +1,10 @@
 <?php
-namespace pistol88\shop\models\product;
+namespace zpearl\shop\models\product;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use pistol88\shop\models\Product;
+use zpearl\shop\models\Product;
 
 
 class ProductSearch extends Product

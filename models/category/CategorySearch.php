@@ -1,13 +1,13 @@
 <?php
-namespace pistol88\shop\models\category;
+namespace zpearl\shop\models\category;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use pistol88\shop\models\Category;
+use zpearl\shop\models\Category;
 
 /**
- * CategorySearch represents the model behind the search form about `pistol88\shop\models\Category`.
+ * CategorySearch represents the model behind the search form about `zpearl\shop\models\Category`.
  */
 class CategorySearch extends Category
 {

@@ -1,5 +1,5 @@
 <?php
-namespace pistol88\shop\models\category;
+namespace zpearl\shop\models\category;
 
 use yii\db\ActiveQuery;
 

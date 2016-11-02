@@ -7,7 +7,7 @@ use dosamigos\grid\EditableColumn;
 $this->title = Html::encode($model->name);
 $this->params['breadcrumbs'][] = ['label' => 'Товар', 'url' => ['index']];
 $this->params['breadcrumbs'][] = 'Обновить';
-\pistol88\shop\assets\BackendAsset::register($this);
+\zpearl\shop\assets\BackendAsset::register($this);
 ?>
 <div class="product-update">
     <div class="shop-menu">
